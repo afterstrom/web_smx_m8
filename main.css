@@ -48,38 +48,12 @@ nav a:hover {
 
 /* SECTIONS */
 section {
-    background: white;
-    margin: 40px auto;
-    padding: 50px;
-    width: 80%;
-    border-radius: 15px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
-    text-align: center;
-}
-
-/* SERVICE BOX */
-.service-box {
-    background: #f1f5f9;
-    margin: 20px 0;
-    padding: 25px;
-    border-radius: 12px;
-    transition: 0.3s ease;
-}
-
-.service-box:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
-}
-
-/* SECTIONS - Colorful Background */
-section {
     margin: 40px auto;
     padding: 50px;
     width: 85%;
     border-radius: 20px;
     text-align: center;
     color: white;
-
     background: linear-gradient(135deg, #2563eb, #1e40af);
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
 }
@@ -87,6 +61,11 @@ section {
 /* Different color for services section */
 #serveis {
     background: linear-gradient(135deg, #0f766e, #134e4a);
+}
+
+/* Different color for contact section */
+#contacte {
+    background: linear-gradient(135deg, #134e4a, #0f766e);
 }
 
 /* SERVICE BOX */
@@ -104,22 +83,12 @@ section {
     background: rgba(255, 255, 255, 0.25);
 }
 
-
+/* BUTTON HOVER */
 .btn:hover {
     background: #ea580c;
 }
 
-#contacte {
-  background: linear-gradient(135deg, #134e4a, #0f766e);
-  margin: 30px auto;
-  padding: 40px;
-  border-radius: 20px;
-  color: white;
-  width: 85%;
-  text-align: center;
-  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
-}
-
+/* GLOW ANIMATION */
 @keyframes glow {
   0% {
     box-shadow: 0 0 0px #f97316;
