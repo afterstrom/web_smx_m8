@@ -22,9 +22,14 @@
 
 <section id="inici">
    <h2>Benvinguts</h2>
-<p>Som especialistes en solucions tecnològiques modernes i segures.</p>
-<p>Treballem amb les últimes tecnologies per crear experiències digitals 
-ràpides, funcionals i atractives.</p>
+<p>El nostre equip està format per professionals amb experiència en desenvolupament web,
+administració de sistemes i suport tecnològic.</p>
+
+<p>El nostre objectiu és ajudar empreses i projectes a créixer amb solucions digitals
+eficients, modernes i adaptades a cada necessitat.</p>
+
+<p>Treballem amb tecnologies actuals com HTML, CSS, sistemes de gestió i eines
+de seguretat per garantir el millor resultat.</p>
 <p>Transformem idees en projectes reals.</p>
 </section>
 
@@ -32,48 +37,31 @@ ràpides, funcionals i atractives.</p>
    <h2>Els nostres serveis</h2>
 <p>Som especialistes en tecnologia que fa créixer el teu projecte:</p>
 
-<ul>
-  <li>🌐 <strong>Desenvolupament web:</strong> Pàgines web i aplicacions funcionals i atractives.</li>
-  <li>🛠 <strong>Manteniment de sistemes:</strong> Sistema sempre estable i optimitzat.</li>
-  <li>💡 <strong>Suport tècnic:</strong> Assistència professional quan més ho necessites.</li>
-</ul>
+  <p> <strong>Desenvolupament web:</strong> Pàgines web i aplicacions funcionals i atractives.</p>
+  <p> <strong>Manteniment de sistemes:</strong> Sistema sempre estable i optimitzat.</p>
+  <p> <strong>Suport tècnic:</strong> Assistència professional quan més ho necessites.</p>
+
 </section>
 
 <section id="contacte">
   <h2>Contacte</h2>
+
   <p>Contacta amb nosaltres per a qualsevol consulta o pressupost.</p>
-  <p>Email: info@smxsolutions.com</p>
+  <p>Email: smx@smxsolutions.com</p>
   <p>Telèfon: +34 123 456 789</p>
+
+  <p>Horari d'atenció:</p>
+  <p>Dilluns - Divendres: 9:00 - 18:00</p>
+
+  <p>També ens pots seguir a les nostres xarxes socials:</p>
+  <p>
+<a href="https://linkedin.com" target="_blank">LinkedIn</a> | 
+<a href="https://instagram.com" target="_blank">Instagram</a> | 
+<a href="https://twitter.com" target="_blank">Twitter</a>
+</p>
+
+  <p>Respondrem el més aviat possible per ajudar-te amb el teu projecte.</p>
 </section>
-
-<script>
-  // Function to add glow class and remove it after animation
-  function highlightSection(id) {
-    const section = document.getElementById(id);
-    if (!section) return;
-
-    section.classList.add('highlight-glow');
-    setTimeout(() => {
-      section.classList.remove('highlight-glow');
-    }, 1600); // duration a little longer than animation
-  }
-
-  // Listen for clicks on nav links with hashes
-  document.querySelectorAll('nav a[href^="#"]').forEach(link => {
-    link.addEventListener('click', (e) => {
-      const targetId = link.getAttribute('href').substring(1);
-      highlightSection(targetId);
-    });
-  });
-
-  // Optional: highlight section if page loaded with hash in URL
-  window.addEventListener('load', () => {
-    const hash = window.location.hash.substring(1);
-    if (hash) {
-      highlightSection(hash);
-    }
-  });
-</script>
 
 <footer id="footer">
    <p>&copy; 2026 SMX Solutions</p>

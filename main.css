@@ -88,24 +88,6 @@ section {
     background: #ea580c;
 }
 
-/* GLOW ANIMATION */
-@keyframes glow {
-  0% {
-    box-shadow: 0 0 0px #f97316;
-  }
-  50% {
-    box-shadow: 0 0 20px 5px #f97316;
-  }
-  100% {
-    box-shadow: 0 0 0px #f97316;
-  }
-}
-
-.highlight-glow {
-  animation: glow 1.5s ease forwards;
-  border-radius: 20px; /* match your section radius */
-}
-
 /* FOOTER */
 footer {
     background: #0f172a;
